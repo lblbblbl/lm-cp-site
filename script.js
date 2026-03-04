@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const galleryItems = document.querySelectorAll('.gallery-item');
     galleryItems.forEach(item => {
         item.addEventListener('click', function() {
-            alert('这里是留给同人作品的展示区，等你上传图片后就可以看到啦！');
+            alert('这里是留给同人作品的展示区，等上传图片后就可以看到啦！');
         });
     });
 
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         card.addEventListener('click', function() {
             const title = this.querySelector('h3').innerText;
             const desc = this.querySelector('p').innerText;
-            alert(`🍬 ${title}\n\n${desc}\n\n（这里是详情弹窗，后续可以改成更漂亮的模态框）`);
+            alert(`🍬 ${title}\n\n${desc}\n\n（这里是详情弹窗）`);
         });
     });
 
